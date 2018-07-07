@@ -1,15 +1,11 @@
 {
-  "name": "express-babel",
+  "name": "getstream-nodejs-groups",
   "version": "1.0.0",
   "description": "Using latest JavaScript features on the server",
   "repository": "https://github.com/vmasto/express-babel",
   "author": "Vassilis Mastorostergios <vmasto@gmail.com>",
   "license": "MIT",
   "main": "dist/index.js",
-  "engines": {
-    "node": "~6.9.1",
-    "npm": ">=3.10.0"
-  },
   "scripts": {
     "prestart": "npm run -s build",
     "start": "node dist/index.js",
@@ -38,6 +34,7 @@
     "babel-preset-env": "^1.6.1",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "getstream": "^3.18.0",
     "morgan": "^1.9.0",
     "pug": "^2.0.0-beta11",
     "rimraf": "^2.6.2"
